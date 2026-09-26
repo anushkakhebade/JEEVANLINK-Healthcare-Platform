@@ -103,6 +103,21 @@ ASHA workers can store patient information locally and synchronize it when inter
 
 ---
 
+## 🧩 Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Python, Flask |
+| Database | SQLite |
+| Offline Storage | Browser LocalStorage |
+| AI / ML | Python, Scikit-learn |
+| Communication | USSD / IVR Simulation |
+| Development | VS Code, Anaconda |
+| Version Control | Git, GitHub |
+
+
+
 ## 🏗️ System Architecture
 
 ```text
@@ -142,18 +157,6 @@ ASHA workers can store patient information locally and synchronize it when inter
                │                              │
                └────────── JeevanLink ────────┘
 
-## 🧩 Technology Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | Python, Flask |
-| Database | SQLite |
-| Offline Storage | Browser LocalStorage |
-| AI / ML | Python, Scikit-learn |
-| Communication | USSD / IVR Simulation |
-| Development | VS Code, Anaconda |
-| Version Control | Git, GitHub |
 
 
 ## 📁 Project Structure
@@ -192,6 +195,7 @@ JeevanLink-Rural-Healthcare/
 │   └── js/
 │
 └── jeevanlink.db
+
 ## 🔐 Role-Based Access
 
 JeevanLink provides separate access for different healthcare stakeholders.
@@ -204,13 +208,13 @@ JeevanLink provides separate access for different healthcare stakeholders.
 | Rural Hospital | Patient and facility management |
 | DHO | District-level monitoring and analytics |
 
----
+
 
 ## 🌐 Accessibility Approach
 
 JeevanLink uses multiple access channels to support users with different levels of connectivity and digital access.
 
-```text
+
                     JeevanLink
                         │
            ┌────────────┼────────────┐
@@ -222,6 +226,7 @@ JeevanLink uses multiple access channels to support users with different levels 
            └────────────┼────────────┘
                         │
                  Healthcare Services
+
 
 📴 Offline-First Workflow
 
@@ -243,11 +248,13 @@ Central Database
 
 This approach helps maintain continuity of data collection in areas with unreliable connectivity.
 
+
 🔒 Data & Access
 
 The prototype uses role-based access to ensure that users interact with healthcare information relevant to their role and facility.
 
 Authorization is handled by the backend rather than relying only on frontend controls.
+
 
 ## 🧪 Demo Credentials
 
@@ -261,7 +268,7 @@ Authorization is handled by the backend rather than relying only on frontend con
 
 > These credentials are provided only for demonstration of the JeevanLink prototype.
 
----
+
 
 
 
